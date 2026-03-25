@@ -1,8 +1,13 @@
 n = int(input("Enter a number: "))
-sum = 0
+temp = n
+pd=0
 
 while n>0:
     digit = n%10 
-    sum += digit
+    pd = pd*10 + digit
     n = n//10
-print(sum)
+
+if pd == temp :
+    print("Palindrome")
+else:
+    print("Not Palindrome")
