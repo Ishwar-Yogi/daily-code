@@ -1,1 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+.env/
+
+# VS Code
+.vscode/
+
+# Temporary files
 tempCodeRunnerFile.py
+
+# OS files
+.DS_Store
+Thumbs.db
